@@ -1,6 +1,6 @@
-import React, { useState, useContext } from "react";
-import { Link } from "react-router-dom";
-import { SigninContext } from "../context/SigninContext";
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { SigninContext } from '../context/SigninContext';
 
 function SignIn() {
   const { setUsername, setShowProfile } = useContext(SigninContext);
@@ -31,7 +31,7 @@ function SignIn() {
             Sign in
           </button>
           <p className="Signinpara1">
-            Dont have an account?{" "}
+            Dont have an account?{' '}
             <Link className="Signinlink" to="/CreateAccount">
               Create One
             </Link>

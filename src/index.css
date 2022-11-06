@@ -746,30 +746,25 @@ button:hover{
   }
   .Profileheader{
     font-family: 'Raleway', sans-serif;
-    font-size: 9vw;
+    font-size: 15vw;
     margin: 0;
     text-align: center;
     color: #0065f5;
-    margin-top: 40px;
+    margin-top: 75px;
     line-height: 58px;
+  }
+  .Profileheader2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 9vw;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+    color: #4d4d4d;
   }
   .Profilepara{
     font-size: 4vw;
     text-align: center;
     color: #4d4d4d;
-    margin-left: 0px;
-    margin-top: 20px;
-  }
-  .Profilebutton{
-    border: none;
-    background: #0065f5;
-    padding: 12px 30px;
-    border-radius: 10px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 15px;
-    transition: .4s;
-    text-decoration: none;
     margin-left: 0px;
     margin-top: 20px;
   }

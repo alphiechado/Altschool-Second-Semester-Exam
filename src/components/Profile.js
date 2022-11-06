@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
-import { SigninContext } from "../context/SigninContext";
-import { Link } from "react-router-dom";
-import Asset8 from "../assets/Asset8.png";
+import React, { useContext } from 'react';
+import { SigninContext } from '../context/SigninContext';
+import Asset8 from '../assets/Asset8.png';
 
 function Profile() {
   const { username } = useContext(SigninContext);
