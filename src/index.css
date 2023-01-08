@@ -116,6 +116,14 @@ button:hover{
 
 
 /* Homepage */
+@keyframes slideIn {
+  from{
+    transform: translatex(100%)
+  }
+  to{
+    transform: translatex(0)
+  } 
+}
 .Home{
   display: flex;
   padding-top: 100px;
@@ -125,6 +133,7 @@ button:hover{
   height: 413px;
   margin-right: 120px;
   margin-top: 40px;
+  animation: slideIn 1s linear;
 
 }
 .Homeheader{
@@ -156,6 +165,56 @@ button:hover{
   text-decoration: none;
   margin-left: -315px;
   margin-top: 20px;
+}
+.HomeSEC1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eef5ff;
+}
+.HomeSEC1header{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  margin-top: 5px;
+  color: #0065f5;
+  
+}
+.HomeSEC2para{
+  text-align: center;
+  font-size: 15px;
+  margin-left: 20px;
+  text-align: left;
+  color: #4d4d4d;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+/* HomeSEC2 */
+.HomeSEC2{
+  display: flex;
+  padding-top: 100px;
+  /* background-color: #eef5ff; */
+}
+.HomeSEC2image{
+  width: 413px;
+  height: 657px;
+  margin-left: 120px;
+
+}
+.HomeSEC2header{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  margin-left: 120px;
+  margin-top: 200px;
+  text-align: left;
+  color: #0065f5;
+}
+.HomeSEC2para{
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: left;
+  color: #4d4d4d;
+  margin-left: 120px;
+  margin-bottom: 20px;
 }
 
 /* Services */
@@ -469,6 +528,12 @@ button:hover{
   margin-left: 140px;
   margin-top: -50px;
 }
+.Footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+
 
 /* Media Query */
 @media screen and (max-width: 768px) {
@@ -899,6 +964,38 @@ button:hover{
     height: auto;
     margin-left: 0%;
     margin-top: 113px;
+  }
+  /* HomeSEC2 */
+  .HomeSEC2{
+    display: inline !important;
+    padding-top: 100px;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  .HomeSEC2image{
+    width: 90%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  .HomeSEC2header{
+    font-family: 'Raleway', sans-serif;
+    font-size: 9vw;
+    margin: 0;
+    text-align: center;
+    color: #0065f5;
+    margin-top: 40px;
+    line-height: 58px;
+  }
+  .HomeSEC2para{
+    font-size: 4vw;
+    text-align: center;
+    color: #4d4d4d;
+    margin-left: 0px;
+    margin-top: 20px;
   }
 
   

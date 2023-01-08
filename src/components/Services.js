@@ -1,6 +1,7 @@
-import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import Asset3 from "../assets/Asset3.png";
+import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
+import Asset3 from '../assets/Asset3.png';
+import Footer from './Footer';
 
 function Services() {
   return (
@@ -26,6 +27,9 @@ function Services() {
         </div>
       </div>
       <Outlet />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

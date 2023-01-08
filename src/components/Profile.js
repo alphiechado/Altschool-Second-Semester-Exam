@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { SigninContext } from '../context/SigninContext';
 import Asset8 from '../assets/Asset8.png';
+import Footer from './Footer';
 
 function Profile() {
   const { username } = useContext(SigninContext);
@@ -15,6 +16,9 @@ function Profile() {
         <div>
           <img className="Profileimage" src={Asset8} alt="Homeimage" />
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
