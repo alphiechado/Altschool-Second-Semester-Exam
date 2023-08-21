@@ -9,13 +9,13 @@ function HomeSEC3() {
         <img className="Investimage" src={Asset5} alt="Investimage" />
       </div>
       <div>
-        <h1 className="Investheader">Invest the right way</h1>
+        <h1 className="Investheader">Section Two</h1>
         <p className="Investpara">
-          Investments are very important. The reward for taking<br></br> on risk
-          is the potential for a greater investment return{' '}
+          So for this part the customer can talk a bit more about what he or she
+          is offering.
         </p>
         <Link to="/SignIn">
-          <button className="Homebutton">Join us</button>
+          <button className="Homebutton">Book Now</button>
         </Link>
       </div>
     </div>

@@ -6,13 +6,13 @@ function HomeSEC2() {
   return (
     <div className="HomeSEC2">
       <div>
-        <h1 className="HomeSEC2header">Save the smart way</h1>
+        <h1 className="HomeSEC2header">Section Two</h1>
         <p className="HomeSEC2para">
-          Save money for rainy days or that luxury item.<br></br> Money should
-          be saved to pay for unexpected <br></br>events or emergencies.
+          So for this part the customer can talk a bit more about what he or she
+          is offering.
         </p>
         <Link to="/SignIn">
-          <button className="Homebutton">Join us</button>
+          <button className="Homebutton">Buy Now</button>
         </Link>
       </div>
       <div>

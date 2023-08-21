@@ -5,10 +5,10 @@ function HomeSEC1() {
     <div>
       <div className="HomeSEC1">
         <div>
-          <h1 className="HomeSEC1header">Hey superstar, did you know that?</h1>
+          <h1 className="HomeSEC1header">This is the About us Section</h1>
           <p className="HomeSEC1para">
-            You can achieve all you financial goals if you know the right way to
-            save and invest?
+            We say a bit about the business here and what they offer in short
+            and concise format.
             <br />
             We are happy you are here.
           </p>

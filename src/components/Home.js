@@ -11,13 +11,13 @@ function Home() {
     <div>
       <div className="Home">
         <div>
-          <h1 className="Homeheader">Make smart financial decisions</h1>
+          <h1 className="Homeheader">This is the Hero Section.</h1>
           <p className="Homepara">
-            No more broke days. We help you save and invest, we help you build
-            wealth
+            This part is a sub paragraph for what we want our customers to write
+            here.
           </p>
           <Link to="/SignIn">
-            <button className="Homebutton">Join us</button>
+            <button className="Homebutton">CTA Button</button>
           </Link>
         </div>
         <div>

@@ -43,19 +43,19 @@ function App() {
               />
             </svg>
           </button>
-          <h1>CashCow</h1>
+          <h1>SproutifyTemp</h1>
           <div
             className={`navLinks ${isNavExpanded ? 'show-menu' : 'hide-menu'}`}
           >
             <Link to="/">Home</Link>
             <Link to="/Services">Services</Link>
-            <Link to="/Stories">Stories</Link>
+            <Link to="/Stories">Shop</Link>
             <div className="NavButtons">
               <Link to="/SignIn">
-                <button className="NavButton1">Sign in</button>
+                <button className="NavButton1">Socials</button>
               </Link>
               <Link to="/CreateAccount">
-                <button className="NavButton2">Create Account</button>
+                <button className="NavButton2">Call us</button>
               </Link>
             </div>
           </div>
@@ -63,7 +63,7 @@ function App() {
         <ErrorBoundary>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Services" element={<Services />}>
+            {/* <Route path="/Services" element={<Services />}>
               <Route path="Save" element={<Save />} />
               <Route path="Invest" element={<Invest />} />
             </Route>
@@ -79,7 +79,7 @@ function App() {
               }
             />
             <Route path="/Profile" element={<Profile />} />
-            <Route path="CreateAccount" element={<CreateAccount />} />
+            <Route path="CreateAccount" element={<CreateAccount />} /> */}
             <Route path="/*" element={<Error404 />} />
           </Routes>
         </ErrorBoundary>

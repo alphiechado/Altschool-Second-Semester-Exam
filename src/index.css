@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:15px;
   line-height:1.5;
   padding:0;
@@ -40,7 +40,8 @@ body {
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #0065f5;
+  background-color:#4C2884;
+  ;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -51,7 +52,7 @@ body {
 }
 
 .hamburger:hover {
-  background-color: #0065f5;
+  background-color: #4C2884;
 }
 
 nav {
@@ -73,19 +74,19 @@ nav {
 nav h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
-  color: #0065f5;
+  color:#4C2884;
 }
 a {
   color: #4d4d4d;
   text-decoration: none;
 }
 a:hover{
-  color: #0065f5;
+  color: #4C2884;
   transition: .3s;
 }
 button{
   border: none;
-  background: #0065f5;
+  background: #FEC431;
   padding: 12px 30px;
   border-radius: 10px;
   color: #ffffff;
@@ -101,10 +102,10 @@ button:hover{
 .NavButton1{
   background: #ffffff;
   border-style: solid;
-  border-color: #0065f5;
+  border-color: #4C2884;
   padding: 12px 30px;
   border-radius: 10px;
-  color: #0065f5;
+  color: #4C2884;
   font-weight: bold;
   font-size: 15px;
   transition: .4s;
@@ -142,7 +143,7 @@ button:hover{
   margin-left: 120px;
   margin-top: 40px;
   text-align: left;
-  color: #0065f5;
+  color: #4C2884;
   
 }
 .Homepara{
@@ -155,7 +156,7 @@ button:hover{
 }
 .Homebutton{
   border: none;
-  background: #0065f5;
+  background: #FEC431;
   padding: 12px 30px;
   border-radius: 10px;
   color: #ffffff;
@@ -176,7 +177,7 @@ button:hover{
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   margin-top: 5px;
-  color: #0065f5;
+  color: #4C2884;
   
 }
 .HomeSEC2para{
@@ -206,7 +207,7 @@ button:hover{
   margin-left: 120px;
   margin-top: 200px;
   text-align: left;
-  color: #0065f5;
+  color: #4C2884;
 }
 .HomeSEC2para{
   font-size: 20px;
@@ -235,7 +236,7 @@ button:hover{
   margin-left: 120px;
   margin-top: 40px;
   text-align: left;
-  color: #0065f5;
+  color: #4C2884;
  
 }
 .Servicespara{
@@ -249,10 +250,10 @@ button:hover{
 .Servicesbutton1{
   background: #ffffff;
   border-style: solid;
-  border-color: #0065f5;
+  border-color: #4C2884;
   padding: 12px 30px;
   border-radius: 10px;
-  color: #0065f5;
+  color: #4C2884;
   font-weight: bold;
   font-size: 15px;
   transition: .4s;
@@ -262,7 +263,7 @@ button:hover{
 }
 .Servicesbutton2{
   border: none;
-  background: #0065f5;
+  background: #4C2884;
   padding: 12px 30px;
   border-radius: 10px;
   color: #ffffff;
@@ -292,7 +293,7 @@ button:hover{
   margin-left: 120px;
   margin-top: 200px;
   text-align: left;
-  color: #0065f5;
+  color: #4C2884;
 }
 .Savepara{
   font-size: 20px;
@@ -321,7 +322,7 @@ button:hover{
   margin-left: 120px;
   margin-top: 200px;
   text-align: left;
-  color: #0065f5;
+  color: #4C2884;
 }
 .Investpara{
   font-size: 20px;
@@ -351,7 +352,7 @@ button:hover{
   margin-left: 120px;
   margin-top: 40px;
   text-align: left;
-  color: #0065f5;
+  color: #4C2884;
 }
 .Storiespara{
   font-size: 20px;
@@ -363,7 +364,7 @@ button:hover{
 }
 .Storiesbutton{
   border: none;
-  background: #0065f5;
+  background:#4C2884;
   padding: 12px 30px;
   border-radius: 10px;
   color: #ffffff;
@@ -384,19 +385,19 @@ button:hover{
   box-sizing: border-box;
   margin: auto;
   padding: 10px;
-  background-color: #0065f5;
+  background-color: #4C2884;
 }
 .Signinheader{
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
   margin-bottom: 20px;
   text-align: center;
-  color: #0065f5;
+  color: #4C2884;
   text-align: center;
   margin-top: 40px;
 }
 .inputParent{
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .input{
   width: 60%;
@@ -554,15 +555,15 @@ button:hover{
     row-gap: 20px;
     padding: 70px 16px 50px;
     transition: all 500ms;
-    filter: drop-shadow(2px 2px 2px #0065f5);
+    filter: drop-shadow(2px 2px 2px #FEC431);
   }
   .NavButton1{
     background: #ffffff;
     border-style: solid;
-    border-color: #0065f5;
+    border-color: #FEC431;
     padding: 12px 30px;
     border-radius: 10px;
-    color: #0065f5;
+    color: #FEC431;
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
@@ -612,7 +613,7 @@ button:hover{
   }
   .Homebutton{
     border: none;
-    background: #0065f5;
+    background: #FEC431;
     padding: 12px 30px;
     border-radius: 10px;
     color: #ffffff;
@@ -658,10 +659,10 @@ button:hover{
   .Servicesbutton1{
     background: #ffffff;
     border-style: solid;
-    border-color: #0065f5;
+    border-color: #FEC431;
     padding: 12px 30px;
     border-radius: 10px;
-    color: #0065f5;
+    color: #FEC431;
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
@@ -671,7 +672,7 @@ button:hover{
   }
   .Servicesbutton2{
     border: none;
-    background: #0065f5;
+    background: #FEC431;
     padding: 12px 30px;
     border-radius: 10px;
     color: #ffffff;
@@ -704,7 +705,7 @@ button:hover{
     font-size: 9vw;
     margin: 0;
     text-align: center;
-    color: #0065f5;
+    color: #FEC431;
     margin-top: 40px;
     line-height: 58px;
   }
@@ -736,7 +737,7 @@ button:hover{
     font-size: 9vw;
     margin: 0;
     text-align: center;
-    color: #0065f5;
+    color: #FEC431;
     margin-top: 40px;
     line-height: 58px;
   }
@@ -769,7 +770,7 @@ button:hover{
     font-size: 9vw;
     margin: 0;
     text-align: center;
-    color: #0065f5;
+    color: #FEC431;
     margin-top: 40px;
     line-height: 58px;
   }
@@ -782,7 +783,7 @@ button:hover{
   }
   .Storiesbutton{
     border: none;
-    background: #0065f5;
+    background: #FEC431;
     padding: 12px 30px;
     border-radius: 10px;
     color: #ffffff;
@@ -814,7 +815,7 @@ button:hover{
     font-size: 15vw;
     margin: 0;
     text-align: center;
-    color: #0065f5;
+    color: #FEC431;
     margin-top: 75px;
     line-height: 58px;
   }
@@ -844,14 +845,14 @@ button:hover{
     margin: auto;
     padding: 10px;
     margin-top: 40px;
-    background-color: #0065f5;
+    background-color: #FEC431;
   }
   .Signinheader{
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     margin-bottom: 20px;
     text-align: center;
-    color: #0065f5;
+    color: #FEC431;
     text-align: center;
     margin-top: 40px;
   }
@@ -907,7 +908,7 @@ button:hover{
     margin: auto;
     padding: 10px;
     margin-top: 40px;
-    background-color: #0065f5;
+    background-color: #FEC431;
   }
   .CAheader{
     font-family: 'Raleway', sans-serif;
@@ -936,7 +937,7 @@ button:hover{
   .CAbutton{
     margin-left: 0px;
     background-color: #ffffff;
-    color: #0065f5;
+    color: #FEC431;
   }
   .CAbutton:hover{
     color: #000000;

@@ -5,7 +5,9 @@ function Footer() {
     <div>
       <div className="Footer">
         <div>
-          <p className="Footerpara">&#169;2023: CashCow Finance</p>
+          <p className="Footerpara">
+            &#169;2023: Made with &#x2764; by Sproutify{' '}
+          </p>
         </div>
       </div>
     </div>
